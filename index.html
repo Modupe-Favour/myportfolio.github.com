@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel = "stylesheet" href="style.css"/>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    </head>
+    <body>
+        <section id="header">
+            <nav>
+                <ul class="menu">
+                    <li><a href="#header" class ="active">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class = "header-heading">
+                <h3>Hi! Are you looking for a Professional?</h3>
+                <h1>I'm <span>Modupe</span> Favour</h1>
+                <p>I'm a Computer Scientist with 3 years experience in Educational Technology. I've had experience in teaching several IT courses ranging from Programming to Microsoft Office Packages and many more with both physical and virtual platforms.</p>
+                <a class ="header-btn" href="#contact">Contact</a>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="services-img" data-aos="fade-down">
+                <img src="images/EduTECH_Logo.jpg" alt="services-img"/>
+            </div>
+
+            <div class="services-text" data-aos="fade-left">
+                <h2>Edu<span>TECH</span> Professional</h2>
+                <h3>I'm a talented IT Instructor with a Team</h3>
+                <h3>Courses I teach:</h3>
+                <p>ScratchJr for simple Animations and Stories- (ages 4 - 7 years)</p>
+                <p>Scratch Programmig for Animations, Stories and Games- (ages 8 - 13 years)</p>
+                <p>Kodular for Andriod Apps - (ages 8 - 13 years)</p>
+                <p>Web Design - (ages 11 and above)</p>
+                <p>Python Programming - (ages 13 and above)</p>
+                <button class="header-btn">Read More</button>
+            </div>
+        </section>
+
+        <section id="work">
+            <div class="work-heading">
+                <h1>Projects</h1>
+                <p>I developed two Andriod Apps using the Kodular Creator.</p>
+            </div>
+            <div class="work-container">
+
+                <div class="work-box" data-aos="fade-right">
+                    <div class="work-img">
+                        <img src="images/work-1.png">
+                    </div>
+
+                    <div class="work-text">
+                        <h4>Andriod Notes App</h4>
+                        <p>Lorem ipsum loremipsum loremipsum</p>
+                        <a class="header-btn" href="#">Read</a>
+                    </div>
+                </div>
+
+                <div class="work-box" data-aos="fade-left">
+                    <div class="work-img">
+                        <img src="images/work-2.png">
+                    </div>
+
+                    <div class="work-text">
+                        <h4>Andriod Calculator App</h4>
+                        <p>Lorem ipsum loremipsum loremipsum</p>
+                        <a class="header-btn" href="#">Read</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="contact-heading">
+                <h1>Contact Me</h1>
+                <p>Fill this form</p>
+            </div>
+            <form data-aos="fade-up">
+                <input type="text" placeholder="Type ypur name"/>
+                <input type="email" placeholder="Type ypur E-mail"/>
+                <textarea placeholder="Type your message here..."></textarea>
+                <input type="submit" value="continue"/>
+            </form>
+        </section>
+
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>
